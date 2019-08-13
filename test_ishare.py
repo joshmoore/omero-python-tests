@@ -18,7 +18,7 @@ import Glacier2
 from omero.rtypes import rtime, rlong, rlist, rint
 from omero.gateway import BlitzGateway
 
-from test.integration.helpers import createTestImage
+from helpers import createTestImage
 import warnings
 
 

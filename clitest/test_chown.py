@@ -24,7 +24,7 @@
 import omero
 from omero.plugins.chown import ChownControl
 from omero.testlib.cli import CLITest, RootCLITest
-from test.integration.clitest.test_tag import AbstractTagTest
+from clitest.test_tag import AbstractTagTest
 import pytest
 
 object_types = ["Image", "Dataset", "Project", "Plate", "Screen"]

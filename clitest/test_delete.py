@@ -22,7 +22,7 @@
 import omero
 from omero.plugins.delete import DeleteControl
 from omero.testlib.cli import CLITest
-from test.integration.clitest.test_tag import AbstractTagTest
+from clitest.test_tag import AbstractTagTest
 import pytest
 
 object_types = ["Image", "Dataset", "Project", "Plate", "Screen"]

@@ -20,7 +20,7 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
-from test.integration.clitest.cli import CLITest
+from clitest.cli import CLITest
 from omero.cli import NonZeroReturnCode
 from omero.model import PixelsI
 from omero.rtypes import rint

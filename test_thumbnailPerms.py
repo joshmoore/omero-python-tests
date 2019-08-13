@@ -32,7 +32,7 @@ import omero
 
 from omero.model import ExperimenterGroupI
 from omero.rtypes import rint
-from test.integration.helpers import createTestImage
+from helpers import createTestImage
 
 
 class TestThumbnailPerms(ITest):

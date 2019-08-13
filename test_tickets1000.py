@@ -14,7 +14,7 @@ import pytest
 import omero
 from omero.rtypes import rint, rlong, rstring
 
-from test.integration.helpers import createTestImage
+from helpers import createTestImage
 
 # Reused bits
 params = omero.sys.Parameters()
